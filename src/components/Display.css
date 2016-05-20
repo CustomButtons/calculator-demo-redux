@@ -1,0 +1,58 @@
+:local(.display) {
+  position: relative;
+  width: 100%;
+  padding: 26px 20px 6px;
+  background-color: rgba(67, 39, 31, 0.516);
+  text-align: right;
+}
+:local(.memory) {
+  position: absolute;
+  top: 2px;
+  right: 20px;
+  visibility: hidden;
+  user-select: none;
+  font-size: 1em;
+  color: #ccc;
+}
+:local(.memory_active) {
+  visibility: visible;
+}
+:local(.value) {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 4.8rem;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 4.8rem;
+  line-height: 1;
+  font-weight: 100;
+  color: #fff;
+}
+
+:local(.toggle) {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+}
+
+:local(.toggle__button) {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+:local(.toggle__button_red) {
+  background-color: #fc5854;
+}
+
+:local(.toggle__button_yellow) {
+  background-color: #fdbd46;
+}
+
+:local(.toggle__button_green) {
+  background-color: #36c74c;
+}

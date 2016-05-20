@@ -1,0 +1,58 @@
+:local(.button) {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 25%;
+  height: 4.8rem;
+  outline: 1px solid #7b7b7b;
+  background-color: #e0e0e0;
+  font-size: 2.1rem;
+  line-height: 4.5rem;
+  font-weight: 300;
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+}
+
+:local(.button_size_2) {
+  width: 50%;
+  padding-right: 25%;
+}
+
+:local(.button_size_3) {
+  width: 75%;
+  padding-right: 50%;
+}
+
+:local(.button_size_4) {
+  width: 100%;
+  padding-right: 75%;
+}
+
+:local(.button_active) {
+  outline: 2px solid #7b7b7b;
+  outline-offset: -1px;
+  z-index: 1;
+  position: relative;
+}
+
+:local(.button_control) {
+  background-color: #d6d6d6;
+  font-size: 1.8rem;
+}
+
+:local(.button_operator) {
+  background-color: rgb(244, 147, 66);
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+  font-weight: 100;
+  color: #fff;
+}
+
+:local(.button):active {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.205) 0%, rgba(0,0,0,0.205) 100%);
+}
+
+:local(.button_operator):active {
+  color: #686868;
+}

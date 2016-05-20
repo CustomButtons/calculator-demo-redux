@@ -1,0 +1,20 @@
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  line-height: 1.5;
+}
+
+:local(.calculatorApp) {
+  width: 234px;
+  border: 1px solid rgba(0,0,0,0.405);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: -1px 25px 80px rgba(0,0,0,0.6);
+}

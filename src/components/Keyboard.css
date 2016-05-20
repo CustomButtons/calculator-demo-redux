@@ -1,0 +1,5 @@
+:local(.keyboard) {
+  width: 100%;
+  user-select: none;
+  background-color: #000;
+}
