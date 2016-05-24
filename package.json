@@ -1,6 +1,6 @@
 {
   "name": "calculator-demo-redux",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Calculator demo on ReactJS and ReduxJS with hot code reloading",
   "scripts": {
     "start": "node server.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+    "url": "https://github.com/CustomButtons/calculator-demo-redux.git"
   },
   "keywords": [
     "react",
     "reactjs",
-    "boilerplate",
+    "redux",
     "hot",
     "reload",
     "hmr",
