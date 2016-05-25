@@ -1,6 +1,6 @@
 {
   "name": "calculator-demo-redux",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Calculator demo on ReactJS and ReduxJS with hot code reloading",
   "scripts": {
     "start": "node server.js",
@@ -32,11 +32,11 @@
     "babel-eslint": "^4.0.5",
     "babel-loader": "^5.3.2",
     "css-loader": "^0.15.6",
-    "cssnext-loader": "^1.0.1",
     "eslint": "^0.24.1",
     "eslint-plugin-react": "^3.1.0",
     "extract-text-webpack-plugin": "^0.8.2",
     "html-webpack-plugin": "^1.6.1",
+    "postcss-loader": "^0.9.1",
     "react-hot-loader": "^1.2.7",
     "redux-devtools": "^1.0.2",
     "style-loader": "^0.12.3",
